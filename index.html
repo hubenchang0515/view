@@ -1,0 +1,515 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Simple CSS Library for simplicity and generality" >
+        <title>View - Simple CSS Library</title>
+        <link rel="stylesheet" href="view.css"/>
+    </head>
+    <body class="view-container-xl view-display-flex view-flex-direction-column view-gap-2">
+        <header>
+            <nav>
+                <h1 class="view-h1">View - Simple CSS Library</h1>
+            </nav>
+        </header>
+        <div class="view-display-flex">
+            <!-- <aside class="view-flex-shrink-0" style="width: 240px;">
+                <ul>
+                    <li><a href="#section-color">Color</a></li>
+                    <li><a href="#section-flex">Flex</a></li>
+                    <li><a href="#section-grid">Grid</a></li>
+                    <li><a href="#section-elements">Elements</a></li>
+                </ul>
+            </aside> -->
+            <main class="view-flex-grow-1 view-display-flex view-gap-1 view-flex-flow">
+                <section id="section-color" class="view-flex-grow-1">
+                    <h2 class="view-text-light view-background-miku">Color</h2>
+                    <h3>color</h3>
+                    <div class="view-text-default">view-text-default</div>
+                    <div class="view-text-hint">view-text-hint</div>
+                    <div class="view-text-primary">view-text-primary</div>
+                    <div class="view-text-secondary">view-text-secondary</div>
+                    <div class="view-text-thirdly">view-text-thirdly</div>
+                    <div class="view-text-miku">view-text-miku</div>
+                    <div class="view-text-red">view-text-red</div>
+                    <div class="view-text-pink">view-text-pink</div>
+                    <div class="view-text-purple">view-text-purple</div>
+                    <div class="view-text-indigo">view-text-indigo</div>
+                    <div class="view-text-blue">view-text-blue</div>
+                    <div class="view-text-cyan">view-text-cyan</div>
+                    <div class="view-text-teal">view-text-teal</div>
+                    <div class="view-text-green">view-text-green</div>
+                    <div class="view-text-yellow">view-text-yellow</div>
+                    <div class="view-text-orange">view-text-orange</div>
+                    <div class="view-text-gray">view-text-gray</div>
+                    <div class="view-text-light view-background-dark">view-text-light</div>
+                    <div class="view-text-dark view-background-light">view-text-dark</div>
+                    <div class="view-text-white view-background-black">view-text-white</div>
+                    <div class="view-text-black view-background-white">view-text-black</div>
+                    
+                    <h3>background-color</h3>
+                    <div class="view-background-default">view-background-default</div>
+                    <div class="view-background-hint">view-background-hint</div>
+                    <div class="view-background-primary">view-background-primary</div>
+                    <div class="view-background-secondary">view-background-secondary</div>
+                    <div class="view-background-thirdly">view-background-thirdly</div>
+                    <div class="view-background-miku">view-background-miku</div>
+                    <div class="view-background-red">view-background-red</div>
+                    <div class="view-background-pink">view-background-pink</div>
+                    <div class="view-background-purple">view-background-purple</div>
+                    <div class="view-background-indigo">view-background-indigo</div>
+                    <div class="view-background-blue">view-background-blue</div>
+                    <div class="view-background-cyan">view-background-cyan</div>
+                    <div class="view-background-teal">view-background-teal</div>
+                    <div class="view-background-green">view-background-green</div>
+                    <div class="view-background-yellow">view-background-yellow</div>
+                    <div class="view-background-orange">view-background-orange</div>
+                    <div class="view-background-gray">view-background-gray</div>
+                    <div class="view-background-light view-text-dark">view-background-light</div>
+                    <div class="view-background-dark view-text-light">view-background-dark</div>
+                    <div class="view-background-white view-text-black">view-background-white</div>
+                    <div class="view-background-black view-text-white">view-background-black</div>
+                </section>
+
+                <section id="section-flex" class="view-flex-grow-1 view-display-flex view-flex-direction-column view-gap-1">
+                    <h2 class="view-text-light view-background-miku">Flex</h2>
+                    <h3>justify-content</h3>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-flex</div>
+                        <div class="view-display-flex view-gap-1 view-border-4 view-border-miku">
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-flex view-justify-content-end</div>
+                        <div class="view-display-flex view-justify-content-end view-gap-1 view-border-4 view-border-miku">
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-flex view-justify-content-space-between</div>
+                        <div class="view-display-flex view-justify-content-space-between view-gap-1 view-border-4 view-border-miku">
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-flex view-justify-content-space-around</div>
+                        <div class="view-display-flex view-justify-content-space-around view-gap-1 view-border-4 view-border-miku">
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-flex view-justify-content-space-evenly</div>
+                        <div class="view-display-flex view-justify-content-space-evenly view-gap-1 view-border-4 view-border-miku">
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                        </div>
+                    </div>
+
+                    <h3>align-items</h3>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-flex view-align-items-stretch</div>
+                        <div class="view-display-flex view-align-items-stretch view-gap-1 view-border-4 view-border-miku" style="min-height: 80px;">
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-flex view-align-items-start</div>
+                        <div class="view-display-flex view-align-items-start view-gap-1 view-border-4 view-border-miku" style="min-height: 80px;">
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-flex view-align-items-end</div>
+                        <div class="view-display-flex view-align-items-end view-gap-1 view-border-4 view-border-miku" style="min-height: 80px;">
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-flex view-align-items-center</div>
+                        <div class="view-display-flex view-align-items-center view-gap-1 view-border-4 view-border-miku" style="min-height: 80px;">
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">CELL</div>
+                        </div>
+                    </div>
+
+                    <h3>align-content</h3>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-flex view-flex-flow view-align-content-start</div>
+                        <div class="view-display-flex view-align-content-start view-flex-flow view-gap-1 view-border-4 view-border-miku" style="min-height: 120px;">
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-flex view-flex-flow view-align-content-center</div>
+                        <div class="view-display-flex view-align-content-center view-flex-flow view-gap-1 view-border-4 view-border-miku" style="min-height: 120px;">
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-flex view-flex-flow view-align-content-space-between</div>
+                        <div class="view-display-flex view-align-content-space-between view-flex-flow view-gap-1 view-border-4 view-border-miku" style="min-height: 120px;">
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-flex view-flex-flow view-align-content-space-around</div>
+                        <div class="view-display-flex view-align-content-space-around view-flex-flow view-gap-1 view-border-4 view-border-miku" style="min-height: 120px;">
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                            <div class="view-text-light view-background-blue view-text-align-center" style="width: 30%;">CELL</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="section-grid" class="view-flex-grow-1 view-display-flex view-flex-direction-column view-gap-1">
+                    <h2 class="view-text-light view-background-miku">Grid</h2>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-grid view-grid-template-columns-12</div>
+                        <div class="view-display-grid view-grid-template-columns-12 view-gap-1 view-border-4 view-border-miku">
+                            <div class="view-text-light view-background-blue view-text-align-center">1</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">2</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">3</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">4</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">5</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">6</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">7</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">8</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">9</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">10</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">11</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">12</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-grid view-grid-template-columns-10</div>
+                        <div class="view-display-grid view-grid-template-columns-10 view-gap-1 view-border-4 view-border-miku">
+                            <div class="view-text-light view-background-blue view-text-align-center">1</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">2</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">3</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">4</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">5</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">6</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">7</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">8</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">9</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">10</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">11</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">12</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-grid view-grid-template-columns-8</div>
+                        <div class="view-display-grid view-grid-template-columns-8 view-gap-1 view-border-4 view-border-miku">
+                            <div class="view-text-light view-background-blue view-text-align-center">1</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">2</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">3</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">4</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">5</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">6</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">7</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">8</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">9</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">10</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">11</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">12</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-grid view-grid-template-columns-6</div>
+                        <div class="view-display-grid view-grid-template-columns-6 view-gap-1 view-border-4 view-border-miku">
+                            <div class="view-text-light view-background-blue view-text-align-center">1</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">2</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">3</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">4</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">5</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">6</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">7</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">8</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">9</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">10</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">11</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">12</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-grid view-grid-template-columns-4</div>
+                        <div class="view-display-grid view-grid-template-columns-4 view-gap-1 view-border-4 view-border-miku">
+                            <div class="view-text-light view-background-blue view-text-align-center">1</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">2</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">3</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">4</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">5</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">6</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">7</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">8</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">9</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">10</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">11</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">12</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="view-background-miku view-text-light">view-display-grid view-grid-template-columns-2</div>
+                        <div class="view-display-grid view-grid-template-columns-2 view-gap-1 view-border-4 view-border-miku">
+                            <div class="view-text-light view-background-blue view-text-align-center">1</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">2</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">3</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">4</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">5</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">6</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">7</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">8</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">9</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">10</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">11</div>
+                            <div class="view-text-light view-background-blue view-text-align-center">12</div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="section-typography" class="view-flex-grow-1">
+                    <h2 class="view-text-light view-background-miku">Typography</h2>
+                    <h1>Heading1</h1>
+                    <h2>Heading2</h2>
+                    <h3>Heading3</h3>
+                    <h4>Heading4</h4>
+                    <h5>Heading5</h5>
+                    <h6>Heading6</h6>
+                    <p><strong>Strong</strong></p>
+                    <p><em>Emphasis</em></p>
+                    <p>Paragraph</p>
+                </section>
+
+                <section id="section-list" class="view-flex-grow-1">
+                    <h2 class="view-text-light view-background-miku">List</h2>
+                    <ol>
+                        <li>Mix flour, baking powder, sugar, and salt.</li>
+                        <li>In another bowl, mix eggs, milk, and oil.</li>
+                        <li>Stir both mixtures together.</li>
+                        <li>Fill muffin tray 3/4 full.</li>
+                        <li>Bake for 20 minutes.</li>
+                    </ol>
+                    <br/>
+                    <ul>
+                        <li>Mix flour, baking powder, sugar, and salt.</li>
+                        <li>In another bowl, mix eggs, milk, and oil.</li>
+                        <li>Stir both mixtures together.</li>
+                        <li>Fill muffin tray 3/4 full.</li>
+                        <li>Bake for 20 minutes.</li>
+                    </ul>
+                </section>
+
+                <section id="section-list" class="view-flex-grow-1">
+                    <h2 class="view-text-light view-background-miku">Link</h2>
+                    <div class="view-display-grid view-grid-template-columns-4 view-gap-1" style="min-width: 0;">
+                        <a href="#" class="view-text-primary">view-text-primary (default)</a>
+                        <a href="#" class="view-text-secondary">view-text-secondary</a>
+                        <a href="#" class="view-text-thirdly">view-text-thirdly</a>
+                        <a href="#" class="view-text-miku">view-text-miku</a>
+                        <a href="#" class="view-text-red">view-text-red</a>
+                        <a href="#" class="view-text-pink">view-text-pink</a>
+                        <a href="#" class="view-text-purple">view-text-purple</a>
+                        <a href="#" class="view-text-indigo">view-text-indigo</a>
+                        <a href="#" class="view-text-blue">view-text-blue</a>
+                        <a href="#" class="view-text-cyan">view-text-cyan</a>
+                        <a href="#" class="view-text-teal">view-text-teal</a>
+                        <a href="#" class="view-text-green">view-text-green</a>
+                        <a href="#" class="view-text-yellow">view-text-yellow</a>
+                        <a href="#" class="view-text-orange">view-text-orange</a>
+                        <a href="#" class="view-text-gray">view-text-gray</a>
+                    </div>
+                </section>
+
+                <section id="section-table" class="view-flex-grow-1">
+                    <h2 class="view-text-light view-background-miku">Table</h2>
+                    <br/>
+                    <table class="view-width-100">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Age</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>1</th>
+                                <td>Jill</td>
+                                <td>Smith</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <th>2</th>
+                                <td>Eve</td>
+                                <td>Jackson</td>
+                                <td>94</td>
+                            </tr>
+                            <tr>
+                                <th>3</th>
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>80</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section id="section-code" class="view-flex-grow-1">
+                    <h2 class="view-text-light view-background-miku">Code</h2>
+                    <br/>
+                    <div class="view-display-flex view-gap-2">
+                        <div>
+                            <p>View is a simple <code >CSS</code> library.</p>
+                            <p>class is <code class="view-border-radius-0">view-border-radius-0</code></p>
+                            <p>class is <code class="view-text-miku">view-border-miku</code></p>
+                            <p>class is <code class="view-text-red">view-border-red</code></p>
+                            <p>class is <code class="view-text-pink">view-border-pink</code></p>
+                            <p>class is <code class="view-text-purple">view-border-purple</code></p>
+                            <p>class is <code class="view-text-indigo">view-border-indigo</code></p>
+                            <p>class is <code class="view-text-blue">view-border-blue</code></p>
+                            <p>class is <code class="view-text-cyan">view-border-cyan</code></p>
+                            <p>class is <code class="view-text-teal">view-border-teal</code></p>
+                            <p>class is <code class="view-text-green">view-border-green</code></p>
+                            <p>class is <code class="view-text-yellow">view-border-yellow</code></p>
+                            <p>class is <code class="view-text-orange">view-border-orange</code></p>
+                            <p>class is 
+                                <code class="view-border-1 view-border-miku">view-border-1</code>
+                                <code class="view-border-1 view-border-miku">view-border-miku</code>
+                            </p>
+                            <p>class is 
+                                <code class="view-border-radius-0 view-border-1 view-border-miku">view-border-radius-0</code>
+                                <code class="view-border-radius-0 view-border-1 view-border-miku">view-border-1</code>
+                                <code class="view-border-radius-0 view-border-1 view-border-miku">view-border-miku</code>
+                            </p>
+                        </div>
+                        <div class="view-flex-grow-1 view-overflow-hidden">
+                            <pre>
+                                <code class="view-text-primary">
+#ifndef LOG_H
+#define LOG_H
+
+#include &lt;stdio.h&gt;
+
+// Log Tag
+#ifdef __linux__
+    #define LOG_TAG_VERBOSE     "\033[97;1mVERBOSE\033[0m"
+    #define LOG_TAG_DEBUG     "\033[96;1mDEBUG\033[0m"
+    #define LOG_TAG_INFO     "\033[94;1mINFO\033[0m"
+    #define LOG_TAG_WARNING     "\033[93;1mWARNING\033[0m"
+    #define LOG_TAG_ERROR     "\033[91;1mERROR\033[0m"
+#else
+    #define LOG_TAG_VERBOSE     "VERBOSE"
+    #define LOG_TAG_DEBUG       "DEBUG"
+    #define LOG_TAG_INFO        "INFO"
+    #define LOG_TAG_WARNING     "WARNING"
+    #define LOG_TAG_ERROR       "ERROR"
+#endif 
+
+
+// enum of LOG_LEVEL
+#define    LOG_LEVEL_ERROR      0
+#define    LOG_LEVEL_WARNING    1
+#define    LOG_LEVEL_INFO       2
+#define    LOG_LEVEL_DEBUG      3
+#define    LOG_LEVEL_VERBOSE    4
+
+
+// Default LOG_LEVEL
+#ifndef LOG_LEVEL
+    #define LOG_LEVEL LOG_LEVEL_INFO
+#endif // LOG_LEVEL
+
+
+#if LOG_LEVEL >= LOG_LEVEL_VERBOSE
+    #define VERBOSE(fmt, ...) fprintf(stdout, "[%s:%d][" LOG_TAG_VERBOSE "]: " fmt, __FILE__, __LINE__, ##__VA_ARGS__)
+#else
+    #define VERBOSE(fmt, ...)
+#endif
+
+#if LOG_LEVEL >= LOG_LEVEL_DEBUG
+    #define DEBUG(fmt, ...) fprintf(stdout, "[%s:%d][" LOG_TAG_DEBUG "]: " fmt, __FILE__, __LINE__, ##__VA_ARGS__)
+#else
+    #define DEBUG(fmt, ...)
+#endif
+
+#if LOG_LEVEL >= LOG_LEVEL_INFO
+    #define INFO(fmt, ...) fprintf(stdout, "[%s:%d][" LOG_TAG_INFO "]: " fmt, __FILE__, __LINE__, ##__VA_ARGS__)
+#else
+    #define INFO(fmt, ...)
+#endif
+
+#if LOG_LEVEL >= LOG_LEVEL_WARNING
+    #define WARNING(fmt, ...) fprintf(stdout, "[%s:%d][" LOG_TAG_WARNING "]: " fmt, __FILE__, __LINE__, ##__VA_ARGS__)
+#else
+    #define WARNING(fmt, ...)
+#endif
+
+#if LOG_LEVEL >= LOG_LEVEL_ERROR
+    #define ERROR(fmt, ...) fprintf(stderr, "[%s:%d][" LOG_TAG_ERROR "]: " fmt, __FILE__, __LINE__, ##__VA_ARGS__)
+#else
+    #define ERROR(fmt, ...)
+#endif
+
+#endif // LOG_H
+                                </code>
+                            </pre>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <p class="view-text-align-center">Open source at <a class="view-text-miku" href="https://github.com/hubenchang0515/view" target="_blank">GitHub</a> licensed <a class="view-text-miku" href="https://github.com/hubenchang0515/view/blob/master/LICENSE" target="_blank">MIT</a></p>
+        </footer>
+    </body>
+</html>
