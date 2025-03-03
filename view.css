@@ -1291,7 +1291,6 @@ pre code {
 .view-pre, pre {
     margin: 0;
     padding: 1em;
-    border-radius: 4px;
     background-color: var(--view-hint-background-color);
     overflow: auto;
 }
