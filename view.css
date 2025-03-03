@@ -376,39 +376,41 @@
 /* Margin */
 
 .view-margin-1 {
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .view-margin-2 {
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .view-margin-3 {
-    margin: 3rem;
+    margin: 1.5rem;
 }
 
 .view-margin-4 {
-    margin: 4rem;
+    margin: 2rem;
 }
 
 /* Padding */
+
 .view-padding-1 {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .view-padding-2 {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .view-padding-3 {
-    padding: 3rem;
+    padding: 1.5rem;
 }
 
 .view-padding-4 {
-    padding: 4rem;
+    padding: 2rem;
 }
 
 /* Border */
+
 .view-border-0 {
     border-width: 0px;
 }
@@ -464,19 +466,19 @@
 /* Gap */
 
 .view-gap-1 {
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .view-gap-2 {
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .view-gap-3 {
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 .view-gap-4 {
-    gap: 4rem;
+    gap: 2rem;
 }
 
 /* Vertical Aligh */
