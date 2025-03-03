@@ -1338,3 +1338,9 @@ pre > code {
     max-width: var(--view-width-xs);
     margin: auto;
 }
+
+@media (prefers-color-scheme: dark) {
+    .view-dark-filter {
+        filter: hue-rotate(180deg) invert(1);
+    }
+}
