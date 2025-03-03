@@ -771,6 +771,48 @@
     width: 10%;
 }
 
+/* Height */
+
+.view-height-100 {
+    height: 100%;
+}
+
+.view-height-90 {
+    height: 90%;
+}
+
+.view-height-80 {
+    height: 80%;
+}
+
+.view-height-70 {
+    height: 70%;
+}
+
+.view-height-60 {
+    height: 60%;
+}
+
+.view-height-50 {
+    height: 50%;
+}
+
+.view-height-40 {
+    height: 40%;
+}
+
+.view-height-30 {
+    height: 30%;
+}
+
+.view-height-20 {
+    height: 20%;
+}
+
+.view-height-10 {
+    height: 10%;
+}
+
 /* Display */
 
 .view-display-none {
