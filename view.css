@@ -626,19 +626,19 @@
 /* Overflow */
 
 .view-overflow-auto {
-    overflow-x: auto;
+    overflow: auto;
 }
 
 .view-overflow-hidden {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .view-overflow-visible {
-    overflow-x: visible;
+    overflow: visible;
 }
 
 .view-overflow-scroll {
-    overflow-x: scroll;
+    overflow: scroll;
 }
 
 .view-overflow-x-auto {
