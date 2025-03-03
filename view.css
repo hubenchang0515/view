@@ -658,19 +658,19 @@
 }
 
 .view-overflow-y-auto {
-    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .view-overflow-y-hidden {
-    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .view-overflow-y-visible {
-    overflow-x: visible;
+    overflow-y: visible;
 }
 
 .view-overflow-y-scroll {
-    overflow-x: scroll;
+    overflow-y: scroll;
 }
 
 /* Flex Layout */
