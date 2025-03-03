@@ -1291,9 +1291,16 @@ pre code {
 .view-pre, pre {
     margin: 0;
     padding: 1em;
-    border-radius: 2px;
+    border-radius: 4px;
     background-color: var(--view-hint-background-color);
     overflow: auto;
+}
+
+.view-blockquote, blockquote {
+    margin: 0;
+    padding: 1em;
+    background-color: var(--view-hint-background-color);
+    border-left: 4px solid var(--view-hint-text-color);
 }
 
 pre > code {
@@ -1330,8 +1337,4 @@ pre > code {
     display: block;
     max-width: var(--view-width-xs);
     margin: auto;
-}
-
-.view-box {
-    display: block;
 }
