@@ -913,15 +913,15 @@
 
 /* Text Wrap */
 
-.view-wrap-wrap {
+.view-text-wrap {
     text-wrap: wrap;
 }
 
-.view-wrap-nowrap {
+.view-text-nowrap {
     text-wrap: nowrap;
 }
 
-.view-wrap-balance {
+.view-text-balance {
     text-wrap: balance;
 }
 
@@ -1143,6 +1143,10 @@
 
 .view-justify-content-end {
     justify-content: end;
+}
+
+.view-justify-content-center {
+    justify-content: center;
 }
 
 .view-justify-content-space-between {
@@ -1436,6 +1440,25 @@ pre > code {
     display: block;
     max-width: var(--view-width-xs);
     margin: auto;
+}
+
+.view-button {
+    text-align: center;
+    vertical-align: middle;
+    color: var(--view-color-light);
+    background-color: var(--view-color-primary);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.view-button:hover {
+    opacity: 90%;
+    text-decoration: none;
+}
+
+.view-button:active {
+    opacity: 100%;
+    text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
