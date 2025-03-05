@@ -375,6 +375,10 @@
 
 /* Margin */
 
+.view-margin-0 {
+    margin: 0;
+}
+
 .view-margin-1 {
     margin: 0.5rem;
 }
@@ -389,6 +393,10 @@
 
 .view-margin-4 {
     margin: 2rem;
+}
+
+.view-margin-top-0 {
+    margin-top: 0;
 }
 
 .view-margin-top-1 {
@@ -407,6 +415,10 @@
     margin-top: 2rem;
 }
 
+.view-margin-bottom-0 {
+    margin-bottom: 0;
+}
+
 .view-margin-bottom-1 {
     margin-bottom: 0.5rem;
 }
@@ -421,6 +433,10 @@
 
 .view-margin-bottom-4 {
     margin-bottom: 2rem;
+}
+
+.view-margin-left-0 {
+    margin-left: 0;
 }
 
 .view-margin-left-1 {
@@ -439,6 +455,10 @@
     margin-left: 2rem;
 }
 
+.view-margin-right-0 {
+    margin-right: 0;
+}
+
 .view-margin-right-1 {
     margin-right: 0.5rem;
 }
@@ -453,6 +473,11 @@
 
 .view-margin-right-4 {
     margin-right: 2rem;
+}
+
+.view-margin-x-0 {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .view-margin-x-1 {
@@ -473,6 +498,11 @@
 .view-margin-x-4 {
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+.view-margin-y-0 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .view-margin-y-1 {
@@ -497,6 +527,10 @@
 
 /* Padding */
 
+.view-padding-0 {
+    padding: 0;
+}
+
 .view-padding-1 {
     padding: 0.5rem;
 }
@@ -511,6 +545,10 @@
 
 .view-padding-4 {
     padding: 2rem;
+}
+
+.view-padding-top-0 {
+    padding-top: 0;
 }
 
 .view-padding-top-1 {
@@ -529,6 +567,10 @@
     padding-top: 2rem;
 }
 
+.view-padding-bottom-0 {
+    padding-bottom: 0;
+}
+
 .view-padding-bottom-1 {
     padding-bottom: 0.5rem;
 }
@@ -543,6 +585,10 @@
 
 .view-padding-bottom-4 {
     padding-bottom: 2rem;
+}
+
+.view-padding-left-{
+    padding-left: 0;
 }
 
 .view-padding-left-1 {
@@ -561,6 +607,10 @@
     padding-left: 2rem;
 }
 
+.view-padding-right-0 {
+    padding-right: 0;
+}
+
 .view-padding-right-1 {
     padding-right: 0.5rem;
 }
@@ -575,6 +625,11 @@
 
 .view-padding-right-4 {
     padding-right: 2rem;
+}
+
+.view-padding-x-0 {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .view-padding-x-1 {
@@ -595,6 +650,11 @@
 .view-padding-x-4 {
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+.view-padding-y-0 {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .view-padding-y-1 {
