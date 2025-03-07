@@ -1327,6 +1327,10 @@
     line-height: var(--view-p-line-height);
 }
 
+.view-strong, strong {
+    font-weight: bold;
+}
+
 .view-hr, hr {
     border-color: var(--view-color-gray);
     border-width: 2px;
@@ -1386,6 +1390,10 @@ code, code * {
     padding: .2em .4em;
     border-radius: 2px;
     background-color: var(--view-hint-background-color);
+}
+
+.view-monofont, .view-monofont * {
+    font-family: Consolas, Monaco, monospace;
 }
 
 pre code {
@@ -1459,37 +1467,6 @@ pre > code {
 .view-button:active {
     opacity: 100%;
     text-decoration: none;
-}
-
-.view-message,
-.view-message-primary {
-    padding: 1rem;
-    color: var(--view-color-light);
-    background-color: var(--view-color-primary);
-}
-
-.view-message-secondary {
-    padding: 1rem;
-    color: var(--view-color-light);
-    background-color: var(--view-color-secondary);
-}
-
-.view-message-success {
-    padding: 1rem;
-    color: var(--view-color-light);
-    background-color: var(--view-color-green);
-}
-
-.view-message-warning {
-    padding: 1rem;
-    color: var(--view-color-light);
-    background-color: var(--view-color-orange);
-}
-
-.view-message-error {
-    padding: 1rem;
-    color: var(--view-color-light);
-    background-color: var(--view-color-red);
 }
 
 @media (prefers-color-scheme: dark) {
