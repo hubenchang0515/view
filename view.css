@@ -1381,7 +1381,7 @@
 }
 
 code, code * {
-    font-family: monospace;
+    font-family: Consolas, Monaco, monospace;
 }
 
 .view-code, code {
