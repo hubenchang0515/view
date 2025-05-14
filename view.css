@@ -77,38 +77,40 @@
 
     --view-h1-font-size: 4rem;
     --view-h1-font-weight: 800;
-    --view-h1-line-height: 1.5;
+    --view-h1-line-height: normal;
 
     --view-h2-font-size: 3.5rem;
     --view-h2-font-weight: 800;
-    --view-h2-line-height: 1.5;
+    --view-h2-line-height: normal;
 
     --view-h3-font-size: 3rem;
     --view-h3-font-weight: 800;
-    --view-h3-line-height: 1.5;
+    --view-h3-line-height: normal;
 
     --view-h4-font-size: 2.5rem;
     --view-h4-font-weight: 800;
-    --view-h4-line-height: 1.5;
+    --view-h4-line-height: normal;
 
     --view-h5-font-size: 2rem;
     --view-h5-font-weight: 800;
-    --view-h5-line-height: 1.5;
+    --view-h5-line-height: normal;
 
     --view-h6-font-size: 1.5rem;
     --view-h6-font-weight: 800;
-    --view-h6-line-height: 1.5;
+    --view-h6-line-height: normal;
 
     --view-p-font-size: 1rem;
     --view-p-font-weight: normal;
-    --view-p-line-height: 2;
+    --view-p-line-height: normal;
 }
 
 /* Global Configure */
 
-.view-normalize {
+.view-normalize, .view-normalize * {
     padding: 0;
     margin: 0;
+    margin-block:0;
+    margin-inline:0;
     border: 0;
     font-family: Inter, SF Pro, Segoe UI, Roboto, Oxygen, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
